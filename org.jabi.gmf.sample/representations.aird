@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:mymodel="mymodel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" xmlns:viewpoint="http://www.obeo.fr/dsl/viewpoint/1.1.0" xsi:schemaLocation="http://www.obeo.fr/dsl/viewpoint/description/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0 http://www.obeo.fr/dsl/viewpoint/1.1.0#//description/style" xmi:id="_HM9DMZcGEeOvGIRK3JIfDA" selectedViews="_MK91UJcGEeOvGIRK3JIfDA" version="6.8.0.201307151200">
+  <models xmi:type="mymodel:MyModel" href="toto.mymodel#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_MK91UJcGEeOvGIRK3JIfDA" initialized="true">
+    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="_MMQ10JcGEeOvGIRK3JIfDA" name="MyModel diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_MMiioJcGEeOvGIRK3JIfDA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_MMiioZcGEeOvGIRK3JIfDA" type="Viewpoint" element="_MMQ10JcGEeOvGIRK3JIfDA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_uBH3cJcGEeOLxpSpeFot4g" type="2001" element="_t__2EZcGEeOLxpSpeFot4g">
+            <children xmi:type="notation:Node" xmi:id="_uBNXAJcGEeOLxpSpeFot4g" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uBNXAZcGEeOLxpSpeFot4g" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_uBV54JcGEeOLxpSpeFot4g" type="3003" element="_uAYQkJcGEeOLxpSpeFot4g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_uBV54ZcGEeOLxpSpeFot4g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBV54pcGEeOLxpSpeFot4g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uBIegJcGEeOLxpSpeFot4g" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBIegZcGEeOLxpSpeFot4g" x="255" y="125" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uBTdoJcGEeOLxpSpeFot4g" type="2001" element="_uAaFwJcGEeOLxpSpeFot4g">
+            <children xmi:type="notation:Node" xmi:id="_uBUrwJcGEeOLxpSpeFot4g" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uBUrwZcGEeOLxpSpeFot4g" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_uBWg8JcGEeOLxpSpeFot4g" type="3003" element="_uAas0JcGEeOLxpSpeFot4g">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_uBWg8ZcGEeOLxpSpeFot4g" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBWg8pcGEeOLxpSpeFot4g"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uBTdoZcGEeOLxpSpeFot4g" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBTdopcGEeOLxpSpeFot4g" x="45" y="85" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_MMiiopcGEeOvGIRK3JIfDA"/>
+          <edges xmi:type="notation:Edge" xmi:id="_uBlKcJcGEeOLxpSpeFot4g" type="4001" element="_uA9fYJcGEeOLxpSpeFot4g" source="_uBH3cJcGEeOLxpSpeFot4g" target="_uBTdoJcGEeOLxpSpeFot4g">
+            <children xmi:type="notation:Node" xmi:id="_uBlxgJcGEeOLxpSpeFot4g" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBlxgZcGEeOLxpSpeFot4g" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_uBmYkJcGEeOLxpSpeFot4g" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBmYkZcGEeOLxpSpeFot4g" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_uBm_oJcGEeOLxpSpeFot4g" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBm_oZcGEeOLxpSpeFot4g" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_uBlKcZcGEeOLxpSpeFot4g"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_uBlKcpcGEeOLxpSpeFot4g" fontName="Segoe UI"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uBlKc5cGEeOLxpSpeFot4g" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uBu7cJcGEeOLxpSpeFot4g" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uBu7cZcGEeOLxpSpeFot4g" id="(0.5,1.0)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_t__2EZcGEeOLxpSpeFot4g" name="toto1" outgoingEdges="_uA9fYJcGEeOLxpSpeFot4g" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="mymodel:MyElement" href="toto.mymodel#//@ownedMyElements.0"/>
+        <semanticElements xmi:type="mymodel:MyElement" href="toto.mymodel#//@ownedMyElements.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:Square" xmi:id="_uAYQkJcGEeOLxpSpeFot4g">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_uAYQkZcGEeOLxpSpeFot4g"/>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.jabi.gmf.viewpoint/description/My.odesign#//@ownedViewpoints[name='mymodelViewpoint']/@ownedRepresentations[name='MyModel%20diagram']/@defaultLayer/@nodeMappings[name='MyElementNodeMapping']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_uAYQkpcGEeOLxpSpeFot4g"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_uAYQk5cGEeOLxpSpeFot4g" red="252" green="233" blue="79"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.jabi.gmf.viewpoint/description/My.odesign#//@ownedViewpoints[name='mymodelViewpoint']/@ownedRepresentations[name='MyModel%20diagram']/@defaultLayer/@nodeMappings[name='MyElementNodeMapping']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_uAaFwJcGEeOLxpSpeFot4g" name="toto2" incomingEdges="_uA9fYJcGEeOLxpSpeFot4g" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="mymodel:MyElement" href="toto.mymodel#//@ownedMyElements.1"/>
+        <semanticElements xmi:type="mymodel:MyElement" href="toto.mymodel#//@ownedMyElements.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:Square" xmi:id="_uAas0JcGEeOLxpSpeFot4g">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_uAas0ZcGEeOLxpSpeFot4g"/>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.jabi.gmf.viewpoint/description/My.odesign#//@ownedViewpoints[name='mymodelViewpoint']/@ownedRepresentations[name='MyModel%20diagram']/@defaultLayer/@nodeMappings[name='MyElementNodeMapping']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_uAas0pcGEeOLxpSpeFot4g"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_uAas05cGEeOLxpSpeFot4g" red="252" green="233" blue="79"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/org.jabi.gmf.viewpoint/description/My.odesign#//@ownedViewpoints[name='mymodelViewpoint']/@ownedRepresentations[name='MyModel%20diagram']/@defaultLayer/@nodeMappings[name='MyElementNodeMapping']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_uA9fYJcGEeOLxpSpeFot4g" sourceNode="_t__2EZcGEeOLxpSpeFot4g" targetNode="_uAaFwJcGEeOLxpSpeFot4g">
+        <target xmi:type="mymodel:MyLink" href="toto.mymodel#//@ownedMyLinks.0"/>
+        <semanticElements xmi:type="mymodel:MyLink" href="toto.mymodel#//@ownedMyLinks.0"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_uA_UkJcGEeOLxpSpeFot4g" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.jabi.gmf.viewpoint/description/My.odesign#//@ownedViewpoints[name='mymodelViewpoint']/@ownedRepresentations[name='MyModel%20diagram']/@defaultLayer/@edgeMappings[name='MyLinkEdgeMapping']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_uA_UkZcGEeOLxpSpeFot4g" red="136" green="136" blue="136"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:EdgeMapping" href="platform:/plugin/org.jabi.gmf.viewpoint/description/My.odesign#//@ownedViewpoints[name='mymodelViewpoint']/@ownedRepresentations[name='MyModel%20diagram']/@defaultLayer/@edgeMappings[name='MyLinkEdgeMapping']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description:DiagramDescription" href="platform:/plugin/org.jabi.gmf.viewpoint/description/My.odesign#//@ownedViewpoints[name='mymodelViewpoint']/@ownedRepresentations[name='MyModel%20diagram']"/>
+      <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_MMQ10ZcGEeOvGIRK3JIfDA"/>
+      <activatedLayers xmi:type="description:Layer" href="platform:/plugin/org.jabi.gmf.viewpoint/description/My.odesign#//@ownedViewpoints[name='mymodelViewpoint']/@ownedRepresentations[name='MyModel%20diagram']/@defaultLayer"/>
+      <target xmi:type="mymodel:MyModel" href="toto.mymodel#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.jabi.gmf.viewpoint/description/My.odesign#//@ownedViewpoints[name='mymodelViewpoint']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

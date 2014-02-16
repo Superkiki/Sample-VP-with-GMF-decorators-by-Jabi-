@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.gmf.runtime.diagram.ui.decoratorProviders">
+      <decoratorProvider
+            class="org.jabi.gmf.decorator.MyDecoratorProvider">
+         <Priority
+               name="Medium">
+         </Priority>
+         <object
+               class="org.eclipse.gmf.runtime.diagram.ui.editparts.IGraphicalEditPart(org.eclipse.gmf.runtime.diagram.ui)"
+               id="Node">
+         </object>
+         <context
+               decoratorTargets="Node">
+         </context>
+      </decoratorProvider>
+   </extension>
+
+</plugin>

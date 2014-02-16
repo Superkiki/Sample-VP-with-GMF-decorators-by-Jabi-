@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mymodel:MyModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mymodel="mymodel">
+  <ownedMyElements name="toto1"/>
+  <ownedMyElements name="toto2"/>
+  <ownedMyLinks name="totolink1" myLinkSource="//@ownedMyElements.0" myLinkTarget="//@ownedMyElements.1"/>
+  <ownedMyPointers name="totopointer1" pointsLink="//@ownedMyLinks.0" pointsElement="//@ownedMyElements.0"/>
+</mymodel:MyModel>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.jabi.gmf.mymodel.presentation.MymodelModelWizardID"
+            name="%_UI_MymodelModelWizard_label"
+            class="org.jabi.gmf.mymodel.presentation.MymodelModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/MymodelModelFile.gif">
+         <description>%_UI_MymodelModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="org.jabi.gmf.mymodel.presentation.MymodelEditorID"
+            name="%_UI_MymodelEditor_label"
+            icon="icons/full/obj16/MymodelModelFile.gif"
+            extensions="mymodel"
+            class="org.jabi.gmf.mymodel.presentation.MymodelEditor"
+            contributorClass="org.jabi.gmf.mymodel.presentation.MymodelActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

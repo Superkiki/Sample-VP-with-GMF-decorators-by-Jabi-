@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Decorator
+Bundle-SymbolicName: org.jabi.gmf.decorator;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.jabi.gmf.decorator.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.jabi.gmf,
+ org.eclipse.gmf.runtime.diagram.core,
+ org.eclipse.gmf.runtime.diagram.ui,
+ fr.obeo.dsl.viewpoint
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

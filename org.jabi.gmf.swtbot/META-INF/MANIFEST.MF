@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Swtbot
+Bundle-SymbolicName: org.jabi.gmf.swtbot
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.jabi.gmf.swtbot.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.junit,
+ org.hamcrest.core,
+ org.eclipse.swtbot.junit4_x,
+ org.eclipse.swtbot.eclipse.finder,
+ fr.obeo.dsl.viewpoint.tests.swtbot.support,
+ fr.obeo.dsl.viewpoint.tests.support
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
