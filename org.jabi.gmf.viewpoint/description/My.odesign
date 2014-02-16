@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.obeo.fr/dsl/viewpoint/description/1.1.0" xmlns:style="http://www.obeo.fr/dsl/viewpoint/description/style/1.1.0" name="My" version="4.1.0.201208221546">
+  <ownedViewpoints name="mymodelViewpoint" modelFileExtension="mymodel">
+    <ownedRepresentations xsi:type="description:DiagramDescription" name="MyModel diagram" initialisation="true" domainClass="MyModel">
+      <defaultLayer name="Default">
+        <nodeMappings name="MyElementNodeMapping" domainClass="MyElement">
+          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="MyLinkEdgeMapping" sourceMapping="//@ownedViewpoints[name='mymodelViewpoint']/@ownedRepresentations[name='MyModel%20diagram']/@defaultLayer/@nodeMappings[name='MyElementNodeMapping']" targetMapping="//@ownedViewpoints[name='mymodelViewpoint']/@ownedRepresentations[name='MyModel%20diagram']/@defaultLayer/@nodeMappings[name='MyElementNodeMapping']" targetFinderExpression="&lt;%myLinkTarget%>" sourceFinderExpression="&lt;%myLinkSource%>" domainClass="MyLink" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>
