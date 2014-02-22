@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
 
 import fr.obeo.dsl.viewpoint.tests.swtbot.support.api.bot.SWTDesignerBot;
 import fr.obeo.dsl.viewpoint.tests.swtbot.support.api.editor.SWTBotDesignerEditor;
+import fr.obeo.dsl.viewpoint.tests.swtbot.support.api.editor.SWTBotDesignerHelper;
 
 @RunWith(SWTBotJunit4ClassRunner.class)
 public class GMFTest {
@@ -47,7 +48,7 @@ public class GMFTest {
 				.getNode("representations.aird").getNode("mymodelViewpoint")
 				.getNode("MyModel diagram").getNode("MyModel diagram").click();
 
-		SWTBotDesignerEditor editor = bot.ge
+		SWTBotDesignerEditor editor = SWTBotDesignerHelper.getDesignerEditor("MyModel diagram");
 
 	}
 
