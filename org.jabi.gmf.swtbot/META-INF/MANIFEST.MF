@@ -11,6 +11,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.swtbot.junit4_x,
  org.eclipse.swtbot.eclipse.finder,
  fr.obeo.dsl.viewpoint.tests.swtbot.support,
- fr.obeo.dsl.viewpoint.tests.support
+ fr.obeo.dsl.viewpoint.tests.support,
+ org.eclipse.swtbot.eclipse.gef.finder
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
