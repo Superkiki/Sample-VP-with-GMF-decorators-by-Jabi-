@@ -5,13 +5,12 @@ import org.eclipse.swtbot.swt.finder.keyboard.Keyboard;
 import org.eclipse.swtbot.swt.finder.keyboard.KeyboardFactory;
 import org.eclipse.swtbot.swt.finder.keyboard.Keystrokes;
 import org.eclipse.swtbot.swt.finder.utils.SWTBotPreferences;
+import org.jabi.gmf.swtbot.condition.TreeItemIsExpanded;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import fr.obeo.dsl.viewpoint.tests.swtbot.support.api.bot.SWTDesignerBot;
-import fr.obeo.dsl.viewpoint.tests.swtbot.support.api.editor.SWTBotDesignerEditor;
-import fr.obeo.dsl.viewpoint.tests.swtbot.support.api.editor.SWTBotDesignerHelper;
 
 @RunWith(SWTBotJunit4ClassRunner.class)
 public class GMFTest {
@@ -22,7 +21,7 @@ public class GMFTest {
 
 	@BeforeClass
 	public static void beforeClass() throws Exception {
-		SWTBotPreferences.TIMEOUT = 10000;
+		SWTBotPreferences.TIMEOUT = 15000;
 		bot.button("OK").click();
 		bot.viewByTitle("Welcome").close();
 	}
@@ -38,18 +37,19 @@ public class GMFTest {
 		bot.text(1).setText(SAMPLE_PATH);
 		keyboard.pressShortcut(Keystrokes.CR);
 		bot.button("Finish").click();
+
 		bot.text("type filter text").setFocus();
 		keyboard.pressShortcut(Keystrokes.TAB);
-		bot.tree();
-		bot.tree().getTreeItem("org.jabi.gmf.sample").select();
 		bot.tree().getTreeItem("org.jabi.gmf.sample").expand();
 		bot.tree().getTreeItem("org.jabi.gmf.sample")
 				.getNode("representations.aird").expand();
+		bot.waitUntil(
+				new TreeItemIsExpanded(bot.tree()
+						.getTreeItem("org.jabi.gmf.sample")
+						.getNode("representations.aird")), 30000);
 		bot.tree().getTreeItem("org.jabi.gmf.sample")
 				.getNode("representations.aird").getNode("mymodelViewpoint")
 				.expand();
-		bot.tree().getTreeItem("org.jabi.gmf.sample")
-				.getNode("representations.aird").click();
 		bot.tree().getTreeItem("org.jabi.gmf.sample")
 				.getNode("representations.aird").getNode("mymodelViewpoint")
 				.getNode("MyModel diagram").expand();
@@ -61,8 +61,11 @@ public class GMFTest {
 				.getNode("MyModel diagram").getNode("MyModel diagram")
 				.doubleClick();
 
-		SWTBotDesignerEditor editor = SWTBotDesignerHelper
-				.getDesignerEditor("MyModel diagram");
-	}
+		// bot.waitUntil(
+		// new EditorIsActive(SWTBotDesignerHelper
+		// .getDesignerEditor("MyModel diagram")), 30000);
 
+		// SWTBotDesignerEditor editor = SWTBotDesignerHelper
+		// .getDesignerEditor("MyModel diagram");
+	}
 }
